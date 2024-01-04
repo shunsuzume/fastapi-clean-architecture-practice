@@ -1,0 +1,10 @@
+version: '3'
+services:
+  workspace:
+    hostname: 'python-workspace'
+    build: .
+    restart: always
+    working_dir: '/home/vscode/workspace'
+    tty: true
+    volumes:
+      - ..:/home/vscode/workspace

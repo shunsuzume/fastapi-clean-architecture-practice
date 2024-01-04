@@ -1,0 +1,21 @@
+{
+    "name": "python",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/home/vscode/workspace",
+    "remoteUser": "vscode",
+  
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.flake8",
+                "ms-python.autopep8",
+                "njpwerner.autodocstring",
+                "github.copilot"
+            ]
+        }
+    }
+}
