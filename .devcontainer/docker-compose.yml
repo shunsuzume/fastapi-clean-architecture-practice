@@ -7,4 +7,6 @@ services:
     working_dir: '/home/vscode/workspace'
     tty: true
     volumes:
-      - ..:/home/vscode/workspace
+      - type: bind
+        source: '..'
+        target: '/home/vscode/workspace'
